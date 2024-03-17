@@ -1,6 +1,9 @@
 VERSION="2.2.1"
 
-ACCOUNTS=["GCB3YBBRVESW2FO4HPKUHP77WRKOKQ7ZCUFVSOKGDHAHZSEJCMBR5P3Y"]
+ACCOUNTS=[
+"GCB3YBBRVESW2FO4HPKUHP77WRKOKQ7ZCUFVSOKGDHAHZSEJCMBR5P3Y",
+"GDJMEQCG6R7ZKPVSYKXXO5LS5FFH47N24KRXAJEI3PCU76KF63IHZNYG"
+]
 
 [DOCUMENTATION]
 ORG_NAME="Grayscale"
@@ -18,3 +21,13 @@ anchor_asset_type="crypto"
 name="Grayscale Basic"
 desc="Grayscale Basic Attention Token Trust is one of the first securities solely and passively invested in the Basic Attention Token"
 image="https://www.grayscale-stellar.com/gscale.jpg"
+
+[[CURRENCIES]]
+code="GBTC"
+status="live"
+display_decimals=7
+issuer="GDJMEQCG6R7ZKPVSYKXXO5LS5FFH47N24KRXAJEI3PCU76KF63IHZNYG"
+anchor_asset_type="crypto"
+name="Grayscale Bitcoin Trust"
+desc="Grayscale Bitcoin Trust is one of the first securities solely and passively invested in Bitcoin that enables investors to gain exposure to BTC in the form of a security while avoiding the challenges of buying, storing, and safekeeping BTC, directly."
+image="https://www.grayscale-stellar.com/gbtc.jpg"
